@@ -8,7 +8,7 @@ namespace CondicionalesUno
         {
             int edad;
 
-            Console.WriteLine("Ingresa tu edad para obtener un descuento n n");
+            Console.WriteLine("Ingrese su edad para obtener un descuento");
             edad = int.Parse(Console.ReadLine());
 
             if(edad > 21){
@@ -20,7 +20,7 @@ namespace CondicionalesUno
                 Console.WriteLine("Tienes 10 OFF");
             }
 
-            Console.WriteLine("Fin del programa, besti");
+            Console.WriteLine("Fin del programa de descuentos :D");
         }
     }
 }
